@@ -23,15 +23,20 @@ public class Tumpukan {
     }
 
     public Barang ambil(){
-        return null;
+        Barang atas = palingAtas;
+        palingAtas = atas.dibawahnya;
+        return atas;
     }
 
     public Barang lihatPalingAtas(){
-        return null;
+        return palingAtas;
     }
 
-    public Boolean kososngkah(){
-        
-        return null;
+    public Boolean kosongkah(){
+        return palingAtas == null;
+    }
+
+    public Boolean adaIsinya(){
+        return !kosongkah();
     }
 }
