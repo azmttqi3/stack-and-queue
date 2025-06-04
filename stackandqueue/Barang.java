@@ -6,4 +6,4 @@ public class Barang{
     public Barang(String n){
         nama = n;
     }
-}
+}   

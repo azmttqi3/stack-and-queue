@@ -37,6 +37,6 @@ public class Tumpukan {
     }
 
     public Boolean adaIsinya(){
-        return !kosongkah();
+        return !kosongkah();    
     }
 }
