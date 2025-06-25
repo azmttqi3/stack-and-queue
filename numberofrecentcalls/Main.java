@@ -10,5 +10,4 @@ public class Main {
         System.out.println("Ping(3002): " + recentCounter.ping(3002));
         System.out.println("Ping(6000): " + recentCounter.ping(6000));        
     }
-    
 }
